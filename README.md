@@ -11,6 +11,10 @@
 ![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users»](configure_db_connection.png)
 *Username — «Admin».*
 
+## Задание 2: Установка Zabbix Agent
+
+
+
 ### Использованные команды
 ```bash
 # Обновление списка пакетов
@@ -50,6 +54,26 @@ sudo systemctl enable zabbix-server apache2
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
-## Задание 2: Установка Zabbix Agent
+## Использованные команды
+
+### Установка и настройка Zabbix Agent (на каждом хосте):
+
+```bash
+# Добавление репозитория
+wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
+sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+
+# Установка агента
+sudo apt update
+sudo apt install zabbix-agent
+
+# Редактирование конфигурации
+sudo nano /etc/zabbix/zabbix_agentd.conf
+# В файле: Server=192.168.1.10, ServerActive=192.168.1.10, Hostname=zabbix-server (или additional-host)
+
+# Запуск и автозагрузка
+sudo systemctl start zabbix-agent
+sudo systemctl enable zabbix-agent
+sudo systemctl restart zabbix-agent
 
 
