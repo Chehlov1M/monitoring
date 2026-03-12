@@ -8,14 +8,13 @@
 
 ### Настройки раннера
 
-![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection](configure db connection.png)
+![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection](runner-settings.png)
 *Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
 
-![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users».](configuration of users.png)
+![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users».](runner-list.png)
 *Username — «Admin».*
 
 ### Использованные команды
-
 ```bash
 # Обновление списка пакетов
 sudo apt update
