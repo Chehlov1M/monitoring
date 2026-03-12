@@ -20,7 +20,7 @@
 ![Страница лог агента `sudo tail -f /var/log/zabbix/zabbix_agentd.log`](log_zabbix_agent.png)
 *Status zabbix-agent — active(running).*
 
-![Страница раздела **Monitoring > Latest data** с данными от обоих хостов.](log_zabbix_agent.png)
+![Страница раздела **Monitoring > Latest data** с данными от обоих хостов.]
 *Все отображённые метрики имеют статус normal*
 
 
