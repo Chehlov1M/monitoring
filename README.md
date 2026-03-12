@@ -50,3 +50,6 @@ sudo systemctl enable zabbix-server apache2
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
+## Задание 2: Установка Zabbix Agent
+
+
