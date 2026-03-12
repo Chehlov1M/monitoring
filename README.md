@@ -5,7 +5,7 @@
 
 ## Задание 1: Установка Zabbix Server
 
-![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection]
+![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection](configuration_of_users.png)
 *Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
 
 ![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users»]
