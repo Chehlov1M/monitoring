@@ -5,7 +5,7 @@
 ## Задание 1: Установка Zabbix Server
 
 ![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection](configuration_of_users.png)
-*Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
+*Тип базы данных — PostgreSQL.*
 
 ![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users»](configure_db_user.png)
 *Username — «Admin».*
@@ -15,13 +15,13 @@
 ## Задание 2: Установка Zabbix Agent
 
 ![Страница раздела **Configuration > Hosts** с двумя хостами и зелёными индикаторами доступности.](configure_db.png)
-*Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
+*Статус хостов (status - enabled).*
 
 ![Страница лог агента `sudo tail -f /var/log/zabbix/zabbix_agentd.log`](log_zabbix_agent.png)
 *Status zabbix-agent — active(running).*
 
-![Страница раздела **Monitoring > Latest data** с данными от обоих хостов.](monitoring _latest _data.png)
-*Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
+![Страница раздела **Monitoring > Latest data** с данными от обоих хостов.]
+*Все отображённые метрики имеют статус normal*
 
 
 ### Использованные команды
