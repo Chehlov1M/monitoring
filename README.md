@@ -8,10 +8,10 @@
 
 ### Настройки раннера
 
-![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection](configure_db_connection.png)
+![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection]([configure_db_connection.png](https://drive.google.com/file/d/104VQ74Wgpd2iq18JhHkJQNUmkexLG82m/view?usp=sharing))
 *Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
 
-![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users».](configuration_of_users.png)
+![Страница интерфейса Zabbix (версия 7.4.7) — раздел «Configuration of users».]()
 *Username — «Admin».*
 
 ### Использованные команды
