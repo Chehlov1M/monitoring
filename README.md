@@ -14,11 +14,11 @@
 
 ## Задание 2: Установка Zabbix Agent
 
-![Страница раздела **Configuration > Hosts** с двумя хостами и зелёными индикаторами доступности.]
+![Страница раздела **Configuration > Hosts** с двумя хостами и зелёными индикаторами доступности.](configure_db.png)
 *Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
 
 ![Страница лог агента `sudo tail -f /var/log/zabbix/zabbix_agentd.log`](log_zabbix_agent.png)
-*Username — «Admin».*
+*Status zabbix-agent — active(running).*
 
 ![Страница раздела **Monitoring > Latest data** с данными от обоих хостов.](monitoring _latest _data.png)
 *Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
