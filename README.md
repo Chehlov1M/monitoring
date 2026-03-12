@@ -5,9 +5,6 @@
 
 ## Задание 1: Установка Zabbix Server
 
-
-### Настройки раннера
-
 ![Страница этапа настройки подключения к базе данных в инсталляторе Zabbix — форма Configure DB connection]
 *Тип базы данных — PostgreSQL , теги: `database type`, `database host`, `database port`, `database name`, `database schema`, `store credentials in`, `user`, `password`, `database tls encryption`.*
 
